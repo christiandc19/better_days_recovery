@@ -1,0 +1,105 @@
+.ativan-rehab-hero {
+  background-image: url('../../../assets/ativan_section_image1.webp'); /* Replace with actual image path */
+  height: 50vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.ativan-rehab-hero::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.473);
+  opacity: .6;
+  z-index: 1;
+}
+
+.image-caption {
+  position: absolute;
+  bottom: 10%;
+  width: 100%;
+  z-index: 2;
+}
+
+.image-caption h1 {
+  color: white;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ativan-rehab-flex {
+  display: flex;
+  gap: 1rem;
+  padding: 3rem 1rem;
+}
+
+.ativan-rehab-menu {
+  width: 50%;
+}
+
+.ativan-rehab-caption {
+  width: 100%;
+  margin: auto;
+}
+
+.ativan-rehab-caption h1 {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+
+.ativan-rehab-caption h2 {
+  font-size: 1.2rem;
+  padding: .5rem 0;
+}
+
+.ativan-rehab-caption p {
+  font-size: 1rem;
+  padding: 0;
+  line-height: normal;
+}
+
+.ativan-rehab-caption ul {
+  list-style: disc;
+}
+
+.ativan-rehab-image {
+  width: 100%;
+  text-align: center;
+}
+
+.ativan-rehab-image img {
+  width: 50%;
+}
+
+@media screen and (max-width: 940px) {
+  .ativan-rehab-flex {
+      flex-wrap: wrap-reverse;
+  }
+
+  .ativan-rehab-menu {
+      width: 60%;
+      margin: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .image-caption h1 {
+      font-size: 2rem;
+      line-height: normal;
+  }
+
+  .ativan-rehab-image img {
+      width: 100%;
+  }
+
+  .ativan-rehab-menu {
+    width: 100%;
+}
+}

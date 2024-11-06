@@ -1,0 +1,28 @@
+
+.program-options-menu {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 1rem;
+}
+
+.program-options-menu h1 {
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+
+.program-options-menu p {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin: 8px 0;
+    color: rgb(48, 45, 45);
+    padding-bottom: 5px;
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.349);
+  }
+
+.program-options-menu p span {
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+    font-size: 1.2em; 
+    color: #e069d6;
+  }

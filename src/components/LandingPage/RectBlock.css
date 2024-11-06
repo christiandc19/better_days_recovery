@@ -1,0 +1,87 @@
+
+.rectBlock {
+    margin-top: -3rem;
+    z-index: 99999;
+
+}
+
+.rectBlockContent {
+    padding: 1rem;
+    z-index: 2;
+    background-color: #ffffff;
+    display: flex;
+    padding: 2rem 1rem;
+    -webkit-box-shadow: 0px 0px 35px -14px rgba(0,0,0,0.39);
+    -moz-box-shadow: 0px 0px 35px -14px rgba(0,0,0,0.39);
+    box-shadow: 0px 0px 35px -14px rgba(0,0,0,0.39);
+}
+
+.rectBlockContent h1 {
+    font-size: 1.2rem;
+    color: #1b2f4d;
+    font-weight: normal;
+    padding: .5rem;
+}
+
+.rectBlockLeft {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    border-right: 1px solid rgba(255, 255, 255, 0.212);
+}
+
+.rectBlockBtn {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.rectBlockBtn a {
+    color: #1b2f4d;
+}
+
+.rectBlockBtn a:hover {
+    color: #1b2f4d;
+}
+
+
+.rectBlockBtn button {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #cd8c63;
+    color: #1b2f4d;
+    padding: 1rem 2rem;
+}
+
+.rectBlockBtn button:hover {
+    background-color: #ffffff;
+    color: #1b2f4d;
+    padding: 1rem 2rem;
+    transition: all 1s ease;
+}
+
+@media screen and (max-width:940px)  {
+    .rectBlockContent {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .rectBlockLeft {
+        border-right: none;
+    }
+
+    .rectBlockContent h1 {
+        font-size: 1.2rem;
+    }
+
+    .rectBlockBtn button {
+        padding: 1rem 3rem;
+    }
+
+    .rectBlockBtn {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    
+
+}

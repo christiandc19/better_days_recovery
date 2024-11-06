@@ -1,0 +1,104 @@
+
+
+.inhalant-hero {
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    z-index: 1; /* Base layer for hero section */
+  
+  }
+  
+  .inhalant-hero:before {
+    content: '';
+    position: absolute;
+    background: url('../../assets/inhalant_hero.webp') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .inhalant .image-caption {
+    position: absolute;
+    bottom: 30%;
+    width: 100%;
+    z-index: 2;
+}
+
+.inhalant .image-caption h1 {
+    color: white;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 3rem;
+}
+
+.inhalant-flex {
+    display: flex;
+    gap: 1rem;
+    padding: 3rem 1rem;
+}
+
+.inhalant-menu {
+    width: 50%;
+}
+
+.inhalant-caption {
+    width: 100%;
+    margin: auto;
+}
+
+
+.inhalant-caption h1 {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+
+.inhalant-caption h2 {
+    font-size: 1.2rem;
+    padding: .5rem 0;
+}
+
+.inhalant-caption p {
+    font-size: 1rem;
+    padding: 0;
+    line-height: normal;
+}
+
+.inhalant-caption ul {
+    list-style: disc;
+}
+
+.inhalant-image {
+    width: 100%;
+}
+
+.inhalant-image img {
+    width: 100%;
+}
+
+
+@media screen and (max-width: 940px) {
+    .inhalant-flex {
+        flex-wrap: wrap-reverse;
+    }
+
+    .inhalant-menu {
+        width: 60%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .inhalant .image-caption h1 {
+        font-size: 2rem;
+    }
+
+    .inhalant-menu {
+        width: 100%;
+    }
+    
+}

@@ -1,0 +1,106 @@
+/* AlcoholHeroinRehab.css */
+
+.addiction-section {
+  height: auto;
+  padding: 3rem 1rem;
+}
+
+.addiction-section-content {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.addiction-section-sidebar {
+  width: 40%;
+}
+
+.addiction-section-caption {
+  width: 100%;
+  padding: 1rem;
+}
+
+.addiction-section-header h1 {
+  text-align: left;
+  font-size: 1.5rem;
+  color: #1b1c1d;
+  font-family: "Noto Serif Oriya", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  line-height: normal;
+  padding: 1rem 0;
+}
+
+
+.addiction-section-header p {
+  font-size: 16px;
+  color: rgb(32, 30, 30);
+  line-height: normal;
+}
+
+.addiction-section-flex {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+
+.addiction-section-flex-image {
+  width: 100%;
+  margin: auto;
+}
+
+.addiction-section-flex-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.addiction-section-flex-caption {
+  width: 100%;
+  margin: auto;
+}
+
+.addiction-section-flex-caption h1 {
+  font-size: 18px;
+  color: rgb(32, 30, 30);
+  line-height: normal;
+}
+
+.addiction-section-flex-caption p {
+  font-size: 16px;
+  color: rgb(32, 30, 30);
+  line-height: normal;
+  text-align: justify;
+}
+
+
+.addiction-section-body {
+  padding: 2rem 0;
+}
+
+
+
+
+@media screen and (max-width:940px) {
+  .addiction-section-flex {
+    flex-wrap: wrap;
+  }
+}
+
+
+
+@media screen and (max-width:700px) {
+  .addiction-section-content {
+    flex-wrap: wrap-reverse;
+  }
+
+  .addiction-section-sidebar {
+    width: 100%;
+  }
+  
+}
+
+
+
+

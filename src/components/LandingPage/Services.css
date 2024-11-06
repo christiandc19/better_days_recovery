@@ -1,0 +1,114 @@
+
+
+.services {
+    padding: 3rem 1rem;
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    transform: translateY(20px); /* Start slightly below */
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Smooth transition */
+    z-index: 99999;
+}
+
+
+.servicesHeader h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: orange;
+    font-family: "Noto Serif Oriya", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    line-height: normal;
+    padding: 1rem 0;
+}
+
+.servicesHeader p {
+    line-height: normal;
+    text-align: center;
+    font-size: 16px;
+    padding: 1rem 0;
+    color: #0c404e;
+    font-family: "Noto Serif Oriya", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.servicesItem {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+/* CircularIcon.css */
+.circular-icon {
+    width: 80px;
+    height: 80px;
+    background-color: #2E788C; /* Your desired background color */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.icon {
+    color: white; /* Icon color */
+    font-size: 40px; /* Icon size */
+    text-align: center;
+}
+
+.icon-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 105px;
+}
+
+.icon-container p {
+    font-size: .9rem;
+    text-transform: uppercase;
+    padding: .5rem 0;
+    width: 100%;
+    text-align: center;
+    color: #2E788C;
+    font-family: "Noto Serif Oriya", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.andMore h1 {
+    text-align: center;
+    font-size: 1rem;
+    padding: 1rem;
+    text-transform: uppercase;
+    color: #2E788C;
+    font-family: "Noto Serif Oriya", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+.servicesCard img {
+    width: 100%;
+}
+
+
+
+@media screen and (max-width: 940px) {
+
+
+
+}
+
+@media screen and (max-width: 600px) {
+    .servicesHeader p {
+
+        font-size: 16px;
+    }
+}

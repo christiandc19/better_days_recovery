@@ -1,0 +1,36 @@
+.sidebar-insurance {
+    background-color: #58799d;
+    border: none;
+    border-radius: 5px;
+}
+
+.sidebar-header h1 {
+    color: white;
+    font-size: 1.3rem;
+    line-height: normal;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.sidebar-insurance-flex {
+    display: flex;
+    justify-content: center;
+    gap: .5rem;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+}
+
+.sidebar-insurance-flexItem {
+    width: 35%;
+}
+
+.sidebar-insurance-flexItem img {
+    width: 100%;
+    display: block;
+}
+
+@media screen and (max-width: 600px) { 
+    .sidebar-insurance-flexItem {
+        width: 25%;
+    }
+}

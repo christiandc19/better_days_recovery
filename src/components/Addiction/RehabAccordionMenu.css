@@ -1,0 +1,50 @@
+/* Accordion */
+
+.rehab-accordion-menu {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.rehab-accordion-menu-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #cd8c633b;
+    border: 1px solid #cd8c636c;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rehab-accordion-menu-button:hover {
+    background-color: #ffffff;
+}
+
+.rehab-accordion-icon {
+    margin-left: 10px;
+}
+
+.rehab-accordion-menu-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    background-color: #f9f9f9;
+    padding: 0 15px;
+}
+
+.rehab-accordion-menu-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.rehab-accordion-menu-content li {
+    padding: 10px 0;
+}
+
+.rehab-accordion-menu-content.open {
+    max-height: none;
+}

@@ -1,0 +1,155 @@
+
+@font-face {
+  font-family: 'Wildest';
+  src: url('../../assets/fonts/Wildest.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.landing {
+  width: 100%;
+  height: auto;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  z-index: 3; /* Base layer for hero section */
+
+}
+
+.landing:before {
+  content: '';
+  position: absolute;
+  background: linear-gradient(#031f3dd8, #0655aa6b), 
+  url('../../assets/hero-bg.webp') no-repeat center bottom/cover;  height: 100%;
+  width: 100%;
+  z-index: 1;
+  opacity: .5;
+}
+
+.landing-container {
+  display: flex;
+  padding-top: 5rem;
+  z-index: 2; /* Elevate hero container above the base */
+  gap: 1rem;
+  height: 100%;
+}
+
+
+
+/* Keyframes for sliding up */
+@keyframes slideUp {
+  0% {
+      opacity: 0;
+      transform: translateY(50px); /* Start position */
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0); /* End at its original position */
+  }
+}
+
+.landing-caption
+{
+  width: 100%;
+  margin: auto;
+  padding: 1rem;
+}
+
+.landing-man {
+  width: 50%;
+}
+
+
+.landing-man img {
+  width: 100%;
+  display: block;
+
+}
+
+.landing h1 {
+    font-size: 5rem;
+    letter-spacing: 2px;
+    color: rgb(255, 255, 255);
+    font-family: "Merriweather", serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: left;
+    line-height: 5rem;
+  }
+
+.landing p {
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    padding: 1rem 0;
+  }
+
+  .hero-btn {
+    display: flex;
+    gap: 2rem;
+    justify-content: left;
+    padding: 1rem 0;
+  }
+  
+  .hero-btn .hero-btn1 {
+    background-color: #58799d;
+    color: white;
+    border: none;
+    padding: .8rem 3rem;
+    border-radius: 1.5rem;
+  }
+  
+  .hero-btn .hero-btn2 {
+    background-color: #ffffff;
+    color: #2E788C;
+    border: none;
+    padding: .8rem 3rem;
+    border-radius: 1.5rem;
+  }
+  
+  .hero-arrow {
+    padding-top: 5px;
+  }
+  
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:940px) {
+
+  .landing-container {
+    flex-wrap: wrap;
+  }
+  
+  .landing-caption {
+    padding-top: 3rem;
+  }
+  
+  .landing-man {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+  }
+
+  .hero-btn {
+    justify-content: center;
+  }
+
+  .landing h1 {
+        font-size: 3rem;
+        text-align: center;
+        line-height: 3rem;
+    }
+
+  .landing p {
+      font-size: 1rem;
+  }
+
+}
+
+
+@media screen and (max-width:600px) {
+  .landing-logo {
+    width: 50%;
+  }
+}

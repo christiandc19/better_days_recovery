@@ -1,0 +1,105 @@
+.drug-addiction-hero {
+    background-image: url('../../../assets/closeup-on-human-hands-holding-red-and-blue_pill.webp');
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.drug-addiction-hero::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.473);
+    opacity: .6;
+    z-index: 1;
+}
+
+.image-caption {
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+    z-index: 2;
+}
+
+.image-caption h1 {
+    color: white;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.drug-addiction-flex {
+    display: flex;
+    gap: 1rem;
+    padding: 3rem 1rem;
+}
+
+.drug-addiction-menu {
+    width: 50%;
+}
+
+.drug-addiction-caption {
+    width: 100%;
+    margin: auto;
+}
+
+.drug-addiction-caption h1 {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+
+.drug-addiction-caption h2 {
+    font-size: 1.2rem;
+    padding: .5rem 0;
+}
+
+.drug-addiction-caption p {
+    font-size: 1rem;
+    padding: 0;
+    line-height: normal;
+}
+
+.drug-addiction-caption ul {
+    list-style: disc;
+}
+
+.drug-addiction-image {
+    width: 100%;
+    text-align: center;
+}
+
+.drug-addiction-image img {
+    width: 40%;
+}
+
+@media screen and (max-width: 940px) {
+    .drug-addiction-flex {
+        flex-wrap: wrap-reverse;
+    }
+
+    .drug-addiction-menu {
+        width: 60%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .image-caption h1 {
+        font-size: 2rem;
+        line-height: normal;
+    }
+
+    .drug-addiction-image img {
+        width: 100%;
+    }
+
+    .drug-addiction-menu {
+        width: 100%;
+    }
+}

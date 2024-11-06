@@ -1,0 +1,101 @@
+
+.dual-diagnosis-section {
+  height: auto;
+  padding: 3rem 1rem;
+}
+
+.dual-diagnosis-section-content {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.dual-diagnosis-section-sidebar {
+  width: 40%;
+}
+
+.dual-diagnosis-section-caption {
+  width: 100%;
+  padding: 1rem;
+}
+
+.dual-diagnosis-section-header h2 {
+  text-align: left;
+  font-size: 1.5rem;
+  color: #1b1c1d;
+  font-family: "Noto Serif Oriya", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  line-height: normal;
+  padding: 1rem 0;
+}
+
+
+.dual-diagnosis-section-header p {
+  font-size: 16px;
+  color: rgb(32, 30, 30);
+  line-height: normal;
+}
+
+.dual-diagnosis-section-flex {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+
+.dual-diagnosis-section-flex-image {
+  width: 100%;
+  margin: auto;
+}
+
+.dual-diagnosis-section-flex-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.dual-diagnosis-section-flex-caption {
+  width: 100%;
+  margin: auto;
+}
+
+.dual-diagnosis-section-flex-caption h1 {
+  font-size: 18px;
+  color: rgb(32, 30, 30);
+  line-height: normal;
+}
+
+.dual-diagnosis-section-flex-caption p {
+  font-size: 16px;
+  color: rgb(32, 30, 30);
+  line-height: normal;
+  text-align: justify;
+}
+
+
+.dual-diagnosis-section-body {
+  padding: 2rem 0;
+}
+
+
+
+
+@media screen and (max-width:940px) {
+  .dual-diagnosis-section-flex {
+    flex-wrap: wrap;
+  }
+}
+
+
+
+@media screen and (max-width:700px) {
+  .dual-diagnosis-section-content {
+    flex-wrap: wrap-reverse;
+  }
+
+  .dual-diagnosis-section-sidebar {
+    width: 100%;
+  }
+  
+}

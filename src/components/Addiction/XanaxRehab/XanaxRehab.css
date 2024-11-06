@@ -1,0 +1,105 @@
+.xanax-rehab-hero {
+  background-image: url('../../../assets/xanax_section_image2.webp'); /* Replace with actual image path */
+  height: 50vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.xanax-rehab-hero::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.473);
+  opacity: .6;
+  z-index: 1;
+}
+
+.image-caption {
+  position: absolute;
+  bottom: 10%;
+  width: 100%;
+  z-index: 2;
+}
+
+.image-caption h1 {
+  color: white;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.xanax-rehab-flex {
+  display: flex;
+  gap: 1rem;
+  padding: 3rem 1rem;
+}
+
+.xanax-rehab-menu {
+  width: 50%;
+}
+
+.xanax-rehab-caption {
+  width: 100%;
+  margin: auto;
+}
+
+.xanax-rehab-caption h1 {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+
+.xanax-rehab-caption h2 {
+  font-size: 1.2rem;
+  padding: .5rem 0;
+}
+
+.xanax-rehab-caption p {
+  font-size: 1rem;
+  padding: 0;
+  line-height: normal;
+}
+
+.xanax-rehab-caption ul {
+  list-style: disc;
+}
+
+.xanax-rehab-image {
+  width: 100%;
+  text-align: center;
+}
+
+.xanax-rehab-image img {
+  width: 50%;
+}
+
+@media screen and (max-width: 940px) {
+  .xanax-rehab-flex {
+      flex-wrap: wrap-reverse;
+  }
+
+  .xanax-rehab-menu {
+      width: 60%;
+      margin: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .image-caption h1 {
+      font-size: 2rem;
+      line-height: normal;
+  }
+
+  .xanax-rehab-image img {
+      width: 100%;
+  }
+
+  .xanax-rehab-menu {
+    width: 100%;
+}
+}

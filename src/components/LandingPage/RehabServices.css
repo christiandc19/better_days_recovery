@@ -1,0 +1,181 @@
+/* General container styles */
+.rehab-services {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+
+  .rehab-services-header h1 {
+    color: var(--primary-color);
+    font-family: "Noto Serif Oriya", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    line-height: normal;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 2rem 0;
+  }
+  
+  /* Tab styles */
+  .tabs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .tab {
+    flex: 1;
+    padding: 12px;
+    text-align: center;
+    background-color: #f0f0f0;
+    border: 1px solid rgba(2, 39, 2, 0.144);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+  }
+  
+  .tab:hover {
+    background-color: #ddd;
+  }
+  
+  .tab.active {
+    background-color: var(--primary-color);
+    color: white;
+  }
+  
+  /* Content area styles */
+  .tab-content {
+    position: relative;
+  }
+  
+  .content {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .fade-in {
+    display: block;
+    opacity: 1;
+  }
+
+
+  /* tab flex */
+
+  .tab-content-flex {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem 0;
+  }
+
+  .tab-content-caption {
+    width: 100%;
+    margin: auto;
+  }
+
+  .tab-content-caption h1 {
+    color: var(--primary-color);
+    font-family: "Noto Serif Oriya", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    line-height: normal;
+    font-size: 1rem;
+    padding: 1rem 0;
+  }
+
+  .tab-content-caption p {
+    font-size: 17px;
+  }
+
+  .tab-content-image {
+    width: 100%;
+    margin: auto;
+  }
+
+  .tab-content-image img {
+    width: 100%;
+    border-radius: .5rem;
+  }
+
+  /* tab button */
+
+  .tab-caption-btn {
+    display: flex;
+    gap: 2rem;
+    justify-content: left;
+    padding: 2rem 0;
+  }
+  
+  .tab-caption-btn .tab-btn1 {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: .8rem 3rem;
+    border-radius: .3rem;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 940px) {
+    .tabs {
+      flex-direction: column;
+    }
+  
+    .tab {
+      padding: 10px;
+      font-size: 0.9rem;
+    }
+  
+    .tab + .tab {
+      margin-top: 5px;
+    }
+  
+    .tab-content {
+      font-size: 0.9rem;
+    }
+
+    .tab-content-flex {
+      flex-wrap: wrap;
+    }
+
+    .tab-content-caption h1 {
+      text-align: center;
+    }
+  
+    .tab-content-caption p {
+      font-size: 16px;
+      line-height: normal;
+      text-align: justify;
+    }
+
+    .tab-caption-btn {
+      justify-content: center;
+    }
+
+    .tab-content-image {
+      width: 75%;
+    }
+    
+
+  }
+  
+  @media (max-width: 500px) {
+    .tab {
+      padding: 8px;
+      font-size: 0.85rem;
+    }
+  
+    .tab-content {
+      font-size: 0.85rem;
+      line-height: 1.4;
+    }
+
+    .tab-content-image {
+      width: 100%;
+    }
+
+  }
+  

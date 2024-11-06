@@ -1,0 +1,103 @@
+/* AlcoholHeroinRehab.css */
+
+.detox-section {
+  height: auto;
+  padding: 3rem 1rem;
+}
+
+.detox-section-content {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.detox-section-sidebar {
+  width: 40%;
+}
+
+.detox-section-caption {
+  width: 100%;
+  padding: 1rem;
+}
+
+.detox-section-header h1 {
+  text-align: left;
+  font-size: 1.5rem;
+  color: #1b1c1d;
+  font-family: "Noto Serif Oriya", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  line-height: normal;
+  padding: 1rem 0;
+}
+
+
+.detox-section-header p {
+  font-size: 16px;
+  color: rgb(32, 30, 30);
+  line-height: normal;
+}
+
+.detox-section-flex {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+
+.detox-section-flex-image {
+  width: 100%;
+  margin: auto;
+}
+
+.detox-section-flex-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.detox-section-flex-caption {
+  width: 100%;
+  margin: auto;
+}
+
+.detox-section-flex-caption h1 {
+  font-size: 18px;
+  color: rgb(32, 30, 30);
+  line-height: normal;
+}
+
+.detox-section-flex-caption p {
+  font-size: 16px;
+  color: rgb(32, 30, 30);
+  line-height: normal;
+  text-align: justify;
+}
+
+
+.detox-section-body {
+  padding: 2rem 0;
+}
+
+
+
+
+@media screen and (max-width:940px) {
+  .detox-section-flex {
+    flex-wrap: wrap;
+  }
+}
+
+
+
+@media screen and (max-width:700px) {
+  .detox-section-content {
+    flex-wrap: wrap-reverse;
+  }
+
+  .detox-section-sidebar {
+    width: 100%;
+  }
+  
+}
+

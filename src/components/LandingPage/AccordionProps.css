@@ -1,0 +1,39 @@
+.accordionFlex {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+}
+.accordionProps {
+    margin: auto;
+}
+
+.accordionProps h1 {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    font-family: "Noto Serif Oriya", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    line-height: normal;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+
+.accordionProps {
+    width: 100%;
+}
+
+@media screen and (max-width: 940px) {
+    .accordionFlex {
+        flex-wrap: wrap-reverse;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .accordionProps h1 {
+        font-size: 1.2rem;
+    }
+    
+}

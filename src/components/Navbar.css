@@ -1,0 +1,184 @@
+/* General Navbar Styles */
+.navbar {
+    background-color: #f6f4f200; /* Default background color */
+    transition: background-color 0.3s ease; /* Smooth transition */
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    position: absolute;
+    top: 7%;
+}
+
+.navbar-logo {
+    width: 220px;
+    padding: .5rem;
+    z-index: 1000; /* Ensure the navbar stays above other content */
+    /* border-right: 1px solid #ffffff4d; */
+}
+
+.navbar-logo img{
+    width: 100%;
+    display: block;
+}
+
+.nav-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; /* Make sure the content inside the navbar also spans the full width */
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    transition: all 0.3s ease;
+    margin: 0;
+}
+
+.nav-menu button {
+    background-color: #58799d;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    transition: background-color 0.5s ease, color 0.3s ease; /* Smooth transition */
+}
+
+
+.nav-box button:hover {
+    background-color: rgba(204, 51, 102, 0.733);
+}
+
+.nav-menu li {
+    position: relative;
+    margin: auto;
+}
+
+.nav-menu a {
+    color: rgb(41, 37, 37);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    
+}
+
+.nav-menu a:hover {
+    color: #cd8c63;
+}
+
+
+/* Hamburger Menu */
+.hamburger {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: var(--primary-color); /* Ensure the icon is visible against the background */
+    z-index: 1001; /* Higher than the nav menu */
+    background: none; /* Remove any background color */
+    border: none; /* Remove any border */
+    outline: none; /* Remove the outline on focus */
+    padding: 2rem; /* Remove any padding */
+}
+
+/* Remove border and outline when the icon is clicked or focused */
+.hamburger:focus,
+.hamburger:active {
+    outline: none; /* Remove outline when the icon is focused */
+    border: none; /* Ensure no border appears on active state */
+    box-shadow: none; /* Remove any box-shadow if applied */
+}
+
+/* Dropdown Menu Styles */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 120%; /* Aligns the dropdown just below the parent */
+    background-color: #f6f4f2;
+    border-radius: .2rem;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    flex-direction: column;
+    width: max-content;
+}
+
+/* Show dropdown menu on hover (for desktop) or when active (for mobile) */
+.dropdown:hover .dropdown-menu,
+.dropdown-menu.active {
+    display: flex; /* Flexbox for column layout on mobile */
+}
+
+.dropdown-menu li {
+    width: 100%;
+    left: -2.5rem;
+    padding: .5rem;
+}
+
+.dropdown-menu a {
+    color: rgb(29, 27, 27);
+    font-family: 'roboto';
+}
+
+.dropdown-menu a:hover {
+    color: #cd8c63;
+}
+
+/* Additional Hover Effect */
+
+
+
+
+/* Responsive Navbar */
+@media screen and (max-width: 940px) {
+
+    .nav-box button:hover {
+        background-color: rgba(204, 51, 102, 0);
+    }
+
+    .nav-box {
+        width: 98%;
+    }
+    
+
+    .hamburger {
+        display: block; /* Show the hamburger menu icon on smaller screens */
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        position: fixed; /* Keep the nav menu fixed within the viewport */
+        top: 0;
+        top: -100%; /* Initially hide the menu off-screen */
+        width: 100%;
+        height: 100vh; /* Cover the entire viewport height */
+        background-color: #f6f4f2;
+        transition: top 0.3s ease;
+        z-index: 999; /* Ensure the menu stays on top of other content */
+        padding-top: 8rem; /* Adjust padding to avoid overlap with the hamburger icon */
+    }
+
+    .nav-menu.active {
+        top: 0; /* Show the menu by moving it into view */
+    }
+
+    .nav-menu li {
+        margin-left: 0;
+        margin: .5rem 0;
+        text-align: left;
+    }
+
+    .dropdown-menu {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #ffffff;
+    }
+
+
+
+
+}

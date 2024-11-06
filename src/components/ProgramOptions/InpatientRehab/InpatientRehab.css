@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+@font-face {
+  font-family: 'Wildest';
+  src: url('../../assets/fonts/Wildest.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inpatient-hero {
+  width: 100%;
+  height: 50vh; /* Ensures it takes up the full viewport height */
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  z-index: 1; /* Ensures it stays above the background but doesn't interfere with the footer */
+}
+
+.inpatient-hero:before {
+  content: '';
+  position: absolute;
+  background: url('../../../assets/inpatient-hero.webp') no-repeat center top/cover;
+  height: 100%;
+  width: 100%;
+  z-index: -1; /* Behind everything in the hero */
+}
+
+.inpatient-hero::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #1b2f4d65; /* Black overlay */
+  z-index: 0; /* Between the image and content */
+}
+
+.inpatient-hero-content {
+  width: max-content;
+  bottom: 20%;
+  left: 10%;
+  position: absolute;
+  padding: 1rem;
+  text-align: center;
+  z-index: 2; /* Ensures the content is above the overlay */
+}
+
+.inpatient-hero h1 {
+    font-size: 4rem;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    line-height: 6rem;
+    font-family: 'Wildest', sans-serif;
+    text-align: left;
+}
+
+.inpatient-hero h2 {
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-family: 'Wildest', sans-serif;
+}
+
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:940px) {
+
+  .inpatient-hero-content {
+    width: 100%;
+    left: 0%;
+  }
+
+    .inpatient-hero h1 {
+        font-size: 3rem;
+        text-align: center;
+        line-height: 3.5rem;
+    }
+
+    .inpatient-hero h2 {
+      text-align: center;
+      font-size: 1.5rem;
+  }
+
+
+    .inpatient-hero p {
+      font-size: 1rem;
+      color: rgb(255, 255, 255);
+  }
+  
+
+}

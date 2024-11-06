@@ -1,0 +1,146 @@
+.offer {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+  
+  .offer:before {
+    content: '';
+    position: absolute;
+    background: url('../../assets/tree_bg_small.webp') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    opacity: .1;
+  }
+
+
+
+.offerHeader {
+    padding: 2rem 0;
+}
+
+.offerHeader hr {
+    width: 8%;
+}
+.offerHeader h1{
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    font-family: "Noto Serif Oriya", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    line-height: normal;
+}
+
+.offerFlex {
+    padding: 3rem 0;
+    z-index: 9999;
+}
+
+.offerFlexItem {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.offerLogo {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.offerLogo img {
+    width: 70%;
+}
+
+.iconText h2 {
+    font-size: 1.5rem;
+    color: rgb(39, 36, 36);
+}
+
+.iconText a {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #007bff; /* Blue color for links */
+  }
+  
+  .iconText a:hover {
+    color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .iconText {
+    z-index: 1; /* Ensures no overlapping elements prevent click */
+  }
+
+.iconText p {
+    color: rgb(39, 36, 36);
+    font-size: 1rem;
+}
+
+.iconText span a {
+    color: #cd8c63;
+}
+
+.iconText span a:hover {
+    color: #0c5dc7;
+}
+
+.iconFlexItem {
+    width: 40%;
+}
+
+
+.iconFlex {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    padding: 0 1rem;
+}
+
+.borderRight {
+    border-right: 1px solid #cd8c6357;
+}
+
+@media screen and (max-width: 940px) {
+
+    .iconFlexItem {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .borderRight {
+        border-right: 1px solid rgba(255, 255, 255, 0);
+    }
+
+    .borderBtm {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.267);
+    }
+
+    .offerHeader {
+        padding: 0rem 0;
+    }
+
+
+}
+
+@media screen and (max-width: 600px) {
+    .offerLogo img {
+        width: 100%;;
+    }
+
+    .iconText h2 {
+        font-size: 1.2rem;
+    }
+    
+    .iconText p {
+        font-size: 14px;
+    }
+}
