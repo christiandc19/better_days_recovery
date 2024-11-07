@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import { Link as LinkRoll } from "react-scroll";
-import logo from "../assets/logo.png";
+import logo from "../assets/logo-white.png";
 import "./Footer.css";
 
 
@@ -102,11 +102,11 @@ const Footer = () => {
 
 
           </div>
-
+            <div className='copyright'>
             <p>
-              &copy; 2024 Tree Of Live Rehab. All rights reserved
+              &copy; 2024 Better Days Recovery. All rights reserved
             </p>
-
+            </div>
 
 
         </div>
