@@ -21,8 +21,8 @@ const Footer = () => {
             <div className="logo-footer">
               <img src={logo} alt="Sacramento Rehab Logo" loading="lazy"/>
               <div>
-                <p>Phone Number here</p>
-                <p>Los Angeles, CA</p>
+              <p><a href="tel:(323) 287-3458"> +1 (323) 287-3458</a></p>
+              <p>7561 W Sunset, Suite 203, Hollywood, CA 90046</p>
               </div>
             </div>
 

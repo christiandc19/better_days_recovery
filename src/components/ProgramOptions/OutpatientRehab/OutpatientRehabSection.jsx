@@ -21,7 +21,7 @@ const OutpatientRehabSection = () => {
         <div className='addiction-section-header'>
           <h1>Outpatient Addiction Treatment Program</h1>
           <p>
-            At Tree of Life Rehab Center, our <strong>Outpatient Program</strong> provides flexible and effective treatment options for individuals seeking recovery without the need for a residential stay. This program is ideal for those who require structured support while maintaining work, family, or school commitments.
+            At Better Days Recovery Center, our <strong>Outpatient Program</strong> provides flexible and effective treatment options for individuals seeking recovery without the need for a residential stay. This program is ideal for those who require structured support while maintaining work, family, or school commitments.
           </p>
         </div>
 

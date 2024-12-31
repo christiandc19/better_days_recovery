@@ -1,4 +1,12 @@
 /* General Navbar Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.body-no-scroll {
+    overflow: hidden;
+  }
+
+
 .navbar {
     background-color: #f6f4f200; /* Default background color */
     transition: background-color 0.3s ease; /* Smooth transition */
@@ -33,22 +41,10 @@
 .nav-menu {
     display: flex;
     list-style: none;
-    transition: all 0.3s ease;
     margin: 0;
+    padding: 0 1rem ;
 }
 
-.nav-menu button {
-    background-color: #58799d;
-    border: none;
-    border-radius: 5px;
-    color: white;
-    transition: background-color 0.5s ease, color 0.3s ease; /* Smooth transition */
-}
-
-
-.nav-box button:hover {
-    background-color: rgba(204, 51, 102, 0.733);
-}
 
 .nav-menu li {
     position: relative;
@@ -58,8 +54,10 @@
 .nav-menu a {
     color: rgb(41, 37, 37);
     text-decoration: none;
-    padding: 0.5rem 1rem;
-    
+    padding: 0.5rem;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .nav-menu a:hover {
@@ -94,15 +92,18 @@
 }
 
 .dropdown-menu {
+    background-color: #ffffff; /* Menu background color */
     display: none;
     position: absolute;
     top: 120%; /* Aligns the dropdown just below the parent */
-    background-color: #f6f4f2;
-    border-radius: .2rem;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 1000;
     flex-direction: column;
     width: max-content;
+    border-radius: 10px;
+    padding-bottom: 1rem;
+    scrollbar-width: thin; /* Firefox: makes the scrollbar thinner */
+    scrollbar-color: #2837476b transparent; /* Firefox: scrollbar thumb and track colors */
+
 }
 
 /* Show dropdown menu on hover (for desktop) or when active (for mobile) */
@@ -114,7 +115,7 @@
 .dropdown-menu li {
     width: 100%;
     left: -2.5rem;
-    padding: .5rem;
+    padding: .2rem .5rem;
 }
 
 .dropdown-menu a {
@@ -129,10 +130,8 @@
 /* Additional Hover Effect */
 
 
-
-
 /* Responsive Navbar */
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 1200px) {
 
     .nav-box button:hover {
         background-color: rgba(204, 51, 102, 0);
@@ -141,7 +140,7 @@
     .nav-box {
         width: 98%;
     }
-    
+
 
     .hamburger {
         display: block; /* Show the hamburger menu icon on smaller screens */
@@ -151,34 +150,63 @@
         flex-direction: column;
         position: fixed; /* Keep the nav menu fixed within the viewport */
         top: 0;
-        top: -100%; /* Initially hide the menu off-screen */
-        width: 100%;
-        height: 100vh; /* Cover the entire viewport height */
-        background-color: #f6f4f2;
-        transition: top 0.3s ease;
+        left: -100%; /* Initially hide the menu off-screen to the left */
+        width: 70%; /* Set the desired width for the menu */
+        height: 100%; /* Cover the entire viewport height */
+        background-color: #ffffff; /* Menu background color */
+        transition: left 0.3s ease; /* Smooth transition when sliding in */
         z-index: 999; /* Ensure the menu stays on top of other content */
-        padding-top: 8rem; /* Adjust padding to avoid overlap with the hamburger icon */
+        padding: 15rem 2rem 2rem 2rem; /* Adjust padding to fit the design */    
     }
 
     .nav-menu.active {
-        top: 0; /* Show the menu by moving it into view */
+        left: 0; /* Slide the menu into view */
     }
+
 
     .nav-menu li {
         margin-left: 0;
-        margin: .5rem 0;
+        margin: .3rem 0;
         text-align: left;
+        border-bottom: 1px dashed rgba(34, 32, 32, 0.192); /* Optional separator */
     }
 
     .dropdown-menu {
-        position: relative;
         top: 0;
         left: 0;
         width: 100%;
-        background-color: #ffffff;
+        background-color: #ffffff; /* Optional background color for dropdowns */
+        overflow-y: auto; /* Add scroll to the dropdown */
+        max-height: 300px;
+        border: 1px solid rgba(34, 32, 32, 0.116);
     }
 
 
+.dropdown-menu a:hover {
+    color: #ffffff;
+}
+
+.nav-menu a {
+    color: #181717; /* Link color for the menu */
+}
+
+.nav-menu a:hover {
+    color: #fa9600d5; /* Changes text color on hover */
+}
 
 
 }
+
+
+@media screen and (max-width: 700px) {
+
+    .nav-menu {
+        width: 80%; /* Set the desired width for the menu */
+    }
+
+    .nav-menu a {
+        font-size: 15px;
+    }
+    
+}
+

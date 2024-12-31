@@ -23,7 +23,7 @@ const DetoxProgramSection = () => {
           <div className='detox-section-header'>
             <h1>Detox Program</h1>
             <p>
-              At Tree of Life Rehab Center, our Detox Program is designed to help individuals safely and effectively manage the withdrawal process. With a compassionate and medically supervised environment, we focus on easing withdrawal symptoms and preparing patients for the next steps in recovery.
+              At Better Days Recovery Center, our Detox Program is designed to help individuals safely and effectively manage the withdrawal process. With a compassionate and medically supervised environment, we focus on easing withdrawal symptoms and preparing patients for the next steps in recovery.
             </p>
           </div>
   

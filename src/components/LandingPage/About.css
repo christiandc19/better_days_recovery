@@ -26,10 +26,15 @@
     width: 100%;
     display: flex;
     gap: 1rem;
+    padding: .5rem 0;
   }
 
   .about-flex-item {
     width: 100%;
+  }
+
+  .about-icon {
+    margin: auto 0;
   }
 
   .about-icon h1 {
@@ -41,11 +46,11 @@
   }
 
   .about-image {
-    width: 100%;
+    width: 50%;
   }
 
   .about-image img {
-    width: 80%;
+    width: 100%;
     display: block;
     border-radius: .5rem;
     margin: auto;
@@ -65,12 +70,29 @@
   .about-flex p {
     font-size: 16px;
     line-height: normal;
-    padding-bottom: 1rem;
   }
+
+  .about-caption {
+    margin: auto 0;
+  }
+
+  
   
 
-
   @media screen and (max-width:940px) {
+    .about-caption h1 {
+      font-size: 1.5rem;
+      line-height: 1.5rem;
+    }
+
+    .about-icon h1 {
+      font-size: 2rem;
+
+    }
+  }
+
+
+  @media screen and (max-width:700px) {
 
     .aboutUsLetters   {
       display: flex;
@@ -82,10 +104,8 @@
       text-align: center;
     }
 
-
-
     .about-container {
-        flex-wrap: wrap;
+        flex-wrap: wrap; 
       }  
       
       .about-content {
@@ -93,22 +113,7 @@
       }
 
       .about-image {
-        width: 75%;
-      }
-    }
-
-    @media screen and (max-width:500px) {
-      .about-content h2 {
-        text-align: center;
-      }
-
-      .about-content p {
-        text-align: justify;
-        line-height: normal;
-      }
-
-      .about-image {
         width: 100%;
       }
-      
     }
+

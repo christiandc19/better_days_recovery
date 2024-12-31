@@ -1,0 +1,163 @@
+/* AlcoholHeroinRehab.css */
+
+.admissions-section {
+    height: auto;
+    padding: 3rem 1rem;
+    max-width: 90%;
+    margin: auto;
+  }
+  
+  .admissions-section-content {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .admissions-section-sidebar {
+    width: 100%;
+  }
+  
+  .admissions-section-caption {
+    width: 100%;
+  }
+  
+  .admissions-section-header h1 {
+    text-align: left;
+    font-size: 1.3rem;
+    color: #1b1c1d;
+    font-family: "Noto Serif Oriya", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    line-height: normal;
+    padding-bottom: 1rem;
+  }
+  
+  
+  .admissions-section-header p {
+    font-size: 16px;
+    color: rgb(32, 30, 30);
+    line-height: normal;
+    font-weight: 300;
+  }
+  
+  .admissions-section-flex {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem 0;
+  }
+  
+  .admissions-section-flex-image {
+    width: 100%;
+    margin: auto;
+  }
+  
+  .admissions-section-flex-image img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .admissions-section-flex-caption {
+    width: 100%;
+    margin: auto;
+  }
+  
+  .admissions-section-flex-caption h2 {
+    text-align: left;
+    font-size: 1rem;
+    color: #1b1c1d;
+    font-family: "Noto Serif Oriya", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    line-height: normal;
+  }
+
+  .admissions-section-flex-caption p {
+    font-size: 16px;
+    color: rgb(32, 30, 30);
+    line-height: normal;
+    text-align: justify;
+    font-weight: 300;
+
+  }
+  
+  .admissions-section-flex-caption ul li {
+    list-style-type: disc;
+}
+
+  .admissions-section-body {
+    padding: 2rem 0;
+  }
+
+  .admissions-btn button {
+    display: flex;
+    align-items: center;
+    background-color: #40b4e2;
+    color: #ffffff;
+    border: none;
+    width: 150px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .admissions-btn button:hover {
+    background-color: #8a5536;
+  }
+  
+  
+  @media screen and (max-width:940px) {
+    
+    .admissions-section-caption {
+      width: 100%;
+      margin-top: 3rem;
+    }
+
+    .admissions-section-flex {
+      flex-wrap: wrap;
+    }
+
+    .admissions-section-content {
+      flex-wrap: wrap;
+    }
+
+    .admissions-section-sidebar {
+        width: 70%;
+    }
+
+}
+  
+
+  
+  
+  @media screen and (max-width:700px) {
+
+    .admissions-section-sidebar {
+      width: 100%;
+    }
+
+    .admissions-section {
+      max-width: 100%;
+    }
+
+    .admissions-section-header h1 {
+      text-align: center;
+    }
+    
+    
+    .admissions-section-header p {
+      text-align: justify;
+    }
+    
+  }
+  
+  
+  
+  
+  

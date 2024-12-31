@@ -1,5 +1,4 @@
 .our-values {
-    margin-bottom: 2rem;
     padding: 1rem;
     background-color: #f9f9f9;
     border-radius: 8px;
@@ -21,7 +20,7 @@
     margin: auto;
   }
 
-  .ourValuesFlexImage img{
+  .ourValuesFlexImage img {
     width: 100%;
     margin: auto;
   }
@@ -34,6 +33,7 @@
     font-size: 16px;
     line-height: normal;
     font-family: 'Roboto';
+    font-weight: 300;
   }
   
   .ourValuesFlexCaption ul {
@@ -41,13 +41,11 @@
     padding: 0;
   }
 
-  .our-values ul li span {
-    font-style: italic;
-  } 
   
   .ourValuesFlexCaption li {
     font-size: 16px;
     color: #666;
+    font-weight: 300;
   }
   
 

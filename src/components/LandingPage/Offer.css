@@ -27,7 +27,7 @@
 .offerHeader hr {
     width: 8%;
 }
-.offerHeader h1{
+.offerHeader h1 {
     text-align: center;
     font-size: 1.5rem;
     color: var(--primary-color);
@@ -57,13 +57,14 @@
     text-align: center;
 }
 
-.offerLogo img {
-    width: 70%;
+.offerLogo h1 {
+    font-size: 3rem;;
 }
 
 .iconText h2 {
     font-size: 1.5rem;
     color: rgb(39, 36, 36);
+    font-weight: 400;
 }
 
 .iconText a {
@@ -82,7 +83,7 @@
 
 .iconText p {
     color: rgb(39, 36, 36);
-    font-size: 1rem;
+    font-size: 14px;
 }
 
 .iconText span a {

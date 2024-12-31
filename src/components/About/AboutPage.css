@@ -33,16 +33,14 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #1b2f4d65; /* Black overlay */
+  background-color: #00000065; /* Black overlay */
   z-index: 0; /* Between the image and content */
 }
 
 .about-hero-content {
-  width: max-content;
+  width: 100%;
   bottom: 20%;
-  left: 10%;
   position: absolute;
-  padding: 1rem;
   text-align: center;
   z-index: 2; /* Ensures the content is above the overlay */
 }
@@ -58,6 +56,7 @@
     line-height: 6rem;
     font-family: 'Wildest', sans-serif;
     text-align: left;
+    text-align: center;
 }
 
 .about-hero h2 {

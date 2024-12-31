@@ -23,7 +23,7 @@ const DualDiagnosisProgram = () => {
         <div className='dual-diagnosis-section-header'>
           <h1>Dual Diagnosis Program</h1>
           <p>        
-            At Tree of Life Rehab Center, our Dual Diagnosis Program provides a comprehensive approach to treating both substance use disorders and co-occurring mental health conditions. Our dedicated team is here to support you through a structured, evidence-based treatment plan tailored to address each unique challenge on your journey to recovery.
+            At Better Days Recovery Center, our Dual Diagnosis Program provides a comprehensive approach to treating both substance use disorders and co-occurring mental health conditions. Our dedicated team is here to support you through a structured, evidence-based treatment plan tailored to address each unique challenge on your journey to recovery.
           </p>
         </div>
 

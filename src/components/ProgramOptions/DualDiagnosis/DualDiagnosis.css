@@ -38,11 +38,9 @@
 }
 
 .dual-diagnosis-hero-content {
-  width: max-content;
+  width: 100%;
   bottom: 20%;
-  right: 10%;
   position: absolute;
-  padding: 1rem;
   text-align: center;
   z-index: 2; /* Ensures the content is above the overlay */
 }
@@ -53,15 +51,10 @@
     letter-spacing: 2px;
     line-height: 6rem;
     font-family: 'Wildest', sans-serif;
-    text-align: left;
+    text-align: center;
 }
 
-.dual-diagnosis-hero h2 {
-    font-size: 2rem;
-    color: rgb(255, 255, 255);
-    text-align: left;
-    font-family: 'Wildest', sans-serif;
-}
+
 
 
 

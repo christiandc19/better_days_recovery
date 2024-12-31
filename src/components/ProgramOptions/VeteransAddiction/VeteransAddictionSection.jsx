@@ -22,7 +22,7 @@ const VeteransAddictionSection = () => {
         <div className='addiction-section-header'>
           <h1>Veterans Addiction Treatment Program</h1>
           <p>        
-            At Tree of Life Rehab Center, we are dedicated to providing specialized support for veterans facing addiction challenges. Our Veterans Addiction Treatment Program is tailored to address the unique experiences and needs of military veterans, offering a pathway to recovery that honors their service while supporting their healing.
+            At Better Days Recovery Center, we are dedicated to providing specialized support for veterans facing addiction challenges. Our Veterans Addiction Treatment Program is tailored to address the unique experiences and needs of military veterans, offering a pathway to recovery that honors their service while supporting their healing.
           </p>
         </div>
 

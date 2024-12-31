@@ -12,12 +12,12 @@ const ProgramOptionsMenu = () => {
 
   return (
     <div className='program-options-menu'>
-        <h1>Program Options</h1>
+        <h1>Levels Of Care Options</h1>
         <Link to="/addiction-program" onClick={handleLinkClick}><p><span><IoIosArrowDropright /></span> Addiction Treatment Program</p></Link>
         <Link to="/detox-program" onClick={handleLinkClick}><p><span><IoIosArrowDropright /></span> Detox Program</p></Link>
         <Link to="/outpatient-rehab" onClick={handleLinkClick}><p><span><IoIosArrowDropright /></span> Outpatient Program</p></Link>
         <Link to="/inpatient-rehab" onClick={handleLinkClick}><p><span><IoIosArrowDropright /></span> Inpatient Program</p></Link>
-        <Link to="/dual-diagnosis" onClick={handleLinkClick}><p><span><IoIosArrowDropright /></span> Inpatient Program</p></Link>
+        <Link to="/dual-diagnosis-program" onClick={handleLinkClick}><p><span><IoIosArrowDropright /></span> Dual Diagnosis </p></Link>
         <Link to="/medication-assisted-program" onClick={handleLinkClick}><p><span><IoIosArrowDropright /></span> Medication Assisted Program</p></Link>
         <Link to="/veterans-addiction-treatment-program" onClick={handleLinkClick}><p><span><IoIosArrowDropright /></span> Veterans Addiction Treatment</p></Link>
     </div>

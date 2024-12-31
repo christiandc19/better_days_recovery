@@ -1,0 +1,130 @@
+.admissions-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.admissionsFormLeft {
+  width: 70%;
+  height: 100%;
+  margin: auto;
+}
+
+.admissionsFormLeft img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
+
+.admissionsFormRight {
+  width: 100%;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.192) 0px 8px 24px;
+  padding: 1rem;
+}
+
+.get_form_inner_text h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.get_form_inner_text p {
+  font-style: italic;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs label {
+  margin: 10px 0 5px;
+}
+
+.userTypeLabel {
+  font-weight: normal;
+  font-size: 14px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+select:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+textarea:focus {
+    border-color: var(--primary-color);
+    outline: none;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.dateOfBirth {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  color: rgb(255, 253, 253);
+}
+
+::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+
+.userOptions {
+  color: rgb(46, 42, 42);
+ 
+}
+
+textarea {
+  resize: vertical;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #bb7d09;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+
+@media screen and (max-width: 940px) {
+  .admissions-container {
+    flex-wrap: wrap-reverse;
+  }
+  
+}
+
+
+@media screen and (max-width: 600px) {
+  .admissionsFormLeft {
+    width: 100%;
+  }
+}
+

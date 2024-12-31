@@ -1,7 +1,4 @@
 
-
-
-
 .footer {
   height: auto;
   width: 100%;
@@ -10,10 +7,6 @@
   position: relative;
   background-color: #283747;
 }
-
-
-
-
 
 .footer .top {
   width: 100%;
@@ -34,8 +27,9 @@
   width: 50%;  
 }
 
-.logo-footer p {
+.logo-footer a {
   font-size: 14px;
+  color: white;
 }
 
 

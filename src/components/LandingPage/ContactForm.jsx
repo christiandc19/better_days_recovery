@@ -16,7 +16,7 @@ const ContactForm = () => {
         setButtonText("Message Sent");
 
         // Send the email using EmailJS
-        emailjs.sendForm('service_bdfl0ie', 'template_4lmc4or', form.current, 'CLcHWAKSemVMd1_sU')
+        emailjs.sendForm('service_bdfl0ie', 'template_obd7mja', form.current, 'CLcHWAKSemVMd1_sU')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
@@ -27,6 +27,8 @@ const ContactForm = () => {
     };
 
     return (
+        <>
+        <div className="bg">
         <div className="contactForm">
 
                 <div className="contact-content container">
@@ -122,7 +124,7 @@ const ContactForm = () => {
                                     ></textarea>
 
                             <div className="disclaimer">
-                              <p>Tree Of Live Rehab needs the contact information you provide to us to contact you about our products and services. You may unsubscribe from these communications at any time. For information on how to unsubscribe, as well as our privacy practices and commitment to protecting your privacy, please review our  
+                              <p>Better Days Recovery needs the contact information you provide to us to contact you about our products and services. You may unsubscribe from these communications at any time. For information on how to unsubscribe, as well as our privacy practices and commitment to protecting your privacy, please review our  
                               <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
                                   <Link to="/privacy-policy"><span> Privacy Policy </span></Link>
                               </LinkRoll></p>
@@ -137,16 +139,9 @@ const ContactForm = () => {
 
 
                 </div>
-
-
-
-
-
-
-
-
-
         </div>
+        </div>
+        </>
     );
 }
 

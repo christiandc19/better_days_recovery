@@ -25,7 +25,7 @@ const MATProgram = () => {
         <div className='mat-section-header'>
           <h1>Medication-Assisted Treatment Program</h1>
           <p>
-            At Tree of Life Rehab Center, our <strong>Medication-Assisted Treatment (MAT) Program</strong> is designed to provide comprehensive support for individuals overcoming addiction. Combining FDA-approved medications with behavioral therapy, MAT helps to manage withdrawal symptoms, reduce cravings, and promote sustained recovery.
+            At Better Days Recovery Center, our <strong>Medication-Assisted Treatment (MAT) Program</strong> is designed to provide comprehensive support for individuals overcoming addiction. Combining FDA-approved medications with behavioral therapy, MAT helps to manage withdrawal symptoms, reduce cravings, and promote sustained recovery.
           </p>
         </div>
 
@@ -55,7 +55,7 @@ const MATProgram = () => {
                 Our MAT program is supported by a compassionate team of medical professionals who provide consistent monitoring and guidance throughout the recovery journey. In addition to medication, our patients participate in one-on-one and group counseling sessions that focus on developing healthy coping strategies, rebuilding relationships, and creating a life free from addiction.
               </p>
               <p>
-                With a holistic approach, Tree of Life Rehab Center aims to empower individuals to achieve long-term recovery and regain control of their lives. Our goal is not just to treat the symptoms of addiction but to help our patients build a sustainable path to wellness.
+                With a holistic approach, Better Days Recovery Center aims to empower individuals to achieve long-term recovery and regain control of their lives. Our goal is not just to treat the symptoms of addiction but to help our patients build a sustainable path to wellness.
               </p>
             </div>
           </div>

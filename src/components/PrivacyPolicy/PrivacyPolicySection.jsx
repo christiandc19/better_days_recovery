@@ -13,7 +13,7 @@ const PrivacyPolicySection = () => {
                     <p>Effective Date: June 26, 2024</p>
                     </div>
                     <br/>
-                    <p><b>Thrive Wellness Group</b> ("we," "us," or "our") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website https://RenewalRecovery.biz/ (the "Site"). Please read this Privacy Policy carefully. If you do not agree with the terms of this Privacy Policy, please do not access the Site.</p>
+                    <p><b>Thrive Wellness Group</b> ("we," "us," or "our") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website https://betterdaysrecovery.biz/ (the "Site"). Please read this Privacy Policy carefully. If you do not agree with the terms of this Privacy Policy, please do not access the Site.</p>
             </div>
 
             <div className='privacyPolicyBullet'>
@@ -49,7 +49,7 @@ const PrivacyPolicySection = () => {
                 <p>No mobile information will be shared with third parties/affiliates for marketing/promotional purposes. All other categories exclude text messaging originator opt-in data and consent; this information will not be shared with any third parties.</p>
                 
                 <h1>6.  Opt-out of text message communications.</h1>
-                <p>You may opt out of text messaging at any time by replying to any message with STOP or contacting us at Info@RenewalRecovery.biz. This will end the communications from that particular phone number. You may continue to receive service-related and other non-marketing text messages from other phone numbers managed by Company, and you may opt out of those in a similar fashion.
+                <p>You may opt out of text messaging at any time by replying to any message with STOP or contacting us at Info@betterdaysrecovery.biz. This will end the communications from that particular phone number. You may continue to receive service-related and other non-marketing text messages from other phone numbers managed by Company, and you may opt out of those in a similar fashion.
                 </p>
             </div>
 

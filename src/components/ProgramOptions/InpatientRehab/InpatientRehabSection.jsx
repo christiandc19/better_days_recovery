@@ -21,7 +21,7 @@ const InpatientRehabSection = () => {
         <div className='inpatient-section-header'>
           <h1>Inpatient Addiction Rehab Program</h1>
           <p>        
-            At Tree of Life Rehab Center, our <strong>Inpatient Program</strong> offers a safe, structured environment for individuals committed to overcoming addiction. With around-the-clock support, personalized therapy, and a range of recovery resources, we are dedicated to helping you rebuild your life free from addiction.
+            At Better Days Recovery Center, our <strong>Inpatient Program</strong> offers a safe, structured environment for individuals committed to overcoming addiction. With around-the-clock support, personalized therapy, and a range of recovery resources, we are dedicated to helping you rebuild your life free from addiction.
           </p>
         </div>
 

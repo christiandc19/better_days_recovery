@@ -1,7 +1,6 @@
 import React from 'react';
 import Accordion from '../../components/LandingPage/Accordion';
 import './AccordionProps.css'
-import medicalProfessional from '../../assets/group_of_friends.webp'
 
 
 function AccordionProps() {
@@ -32,7 +31,7 @@ function AccordionProps() {
     },
     {
       title: 'Evidence-Based Treatment Methods',
-      content: 'Tree Of Live Rehab employs evidence-based treatment methods such as Cognitive Behavioral Therapy (CBT), Dialectical Behavior Therapy (DBT), and Medication-Assisted Treatment (MAT). These approaches have been scientifically proven to aid in both addiction recovery and mental health management.'
+      content: 'Better Days Recovery employs evidence-based treatment methods such as Cognitive Behavioral Therapy (CBT), Dialectical Behavior Therapy (DBT), and Medication-Assisted Treatment (MAT). These approaches have been scientifically proven to aid in both addiction recovery and mental health management.'
     }
   ];
 
@@ -40,7 +39,7 @@ function AccordionProps() {
     <>
     <div className='accordionFlex'>
       <div className="accordionProps">
-        <h1>Reasons to Choose Tree of Life Rehab</h1>
+        <h1>Reasons to Choose Better Days Recovery</h1>
         <Accordion items={accordionItems} />
       </div>
 

@@ -20,7 +20,7 @@ const Insurance = () => {
         <div className="insurance-category">
         {/* <h1>WE WORK WITH MAJOR INSURANCE</h1>
         <hr />
-          <p>At Tree Of Live Rehab, we believe that quality healthcare should be accessible to all. That's why we're committed to working with a wide range of insurance providers to ensure our patients can receive the care they need without added financial stress. Explore our comprehensive list of accepted insurances above.</p> */}
+          <p>At Better Days Recovery, we believe that quality healthcare should be accessible to all. That's why we're committed to working with a wide range of insurance providers to ensure our patients can receive the care they need without added financial stress. Explore our comprehensive list of accepted insurances above.</p> */}
 
           <div className="insurance-icons">
 

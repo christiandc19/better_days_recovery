@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { Link, useLocation } from 'react-router-dom';
 import Logo from '../assets/logo.png';
-import logoDark from '../assets/logo-dark.png'; // Import the dark logo
 import './Navbar.css';
 
 const Navbar = () => {
@@ -17,6 +16,21 @@ const Navbar = () => {
   const closeMenu = () => {
     setIsMenuOpen(false);
   };
+
+  
+
+    // Add/remove 'body-no-scroll' class when menu state changes
+    useEffect(() => {
+      if (isMenuOpen) {
+        document.body.classList.add('body-no-scroll');
+      } else {
+        document.body.classList.remove('body-no-scroll');
+      }
+      return () => {
+        document.body.classList.remove('body-no-scroll'); // Cleanup on component unmount
+      };
+    }, [isMenuOpen]);
+
 
   // Scroll event to handle background color and logo change
   
@@ -46,11 +60,13 @@ const Navbar = () => {
         </button>
         <ul className={`nav-menu ${isMenuOpen ? 'active' : ''}`}>
           <li><Link to="/" onClick={() => { closeMenu(); scrollToTop(); }}>Home</Link></li>
+          <li><Link to="/treatment" onClick={() => { closeMenu(); scrollToTop(); }}>Treatment</Link></li>
+          <li><Link to="/recovery" onClick={() => { closeMenu(); scrollToTop(); }}>Recovery</Link></li>
 
           {/* Dropdown for Program Options */}
           <li className="dropdown">
             <Link to="#" role="button" aria-haspopup="true" aria-expanded={isMenuOpen ? 'true' : 'false'}>
-              Program Options
+              Levels Of Care
             </Link>
             <ul className="dropdown-menu">
               <li><Link to="/addiction-program" onClick={() => { closeMenu(); scrollToTop(); }}>Addiction Treatment Program</Link></li>
@@ -96,7 +112,10 @@ const Navbar = () => {
           </li>
 
           <li><Link to="/about" onClick={() => { closeMenu(); scrollToTop(); }}>About</Link></li>
-          <li><Link to="/contact" onClick={() => { closeMenu(); scrollToTop(); }}><button>Contact Us</button></Link></li>
+          <li><Link to="/admissions" onClick={() => { closeMenu(); scrollToTop(); }}>Admissions</Link></li>
+          <li><Link to="/contact" onClick={() => { closeMenu(); scrollToTop(); }}>Contact Us</Link></li>
+
+          {/* <li><Link to="/contact" onClick={() => { closeMenu(); scrollToTop(); }}><button>Contact Us</button></Link></li> */}
         </ul>
       </div>
     </nav>

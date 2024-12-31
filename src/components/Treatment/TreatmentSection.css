@@ -1,0 +1,169 @@
+/* AlcoholHeroinRehab.css */
+
+.treatment-section {
+    height: auto;
+    padding: 3rem 1rem;
+  }
+  
+  .treatment-section-content {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .treatment-section-sidebar {
+    width: 40%;
+  }
+  
+  .treatment-section-caption {
+    width: 100%;
+  }
+  
+  .treatment-section-header h1 {
+    text-align: left;
+    font-size: 1.3rem;
+    color: #1b1c1d;
+    font-family: "Noto Serif Oriya", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    line-height: normal;
+    padding-bottom: 1rem;
+  }
+  
+  
+  .treatment-section-header p {
+    font-size: 16px;
+    color: rgb(32, 30, 30);
+    line-height: normal;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .treatment-section-flex {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem 0;
+  }
+  
+  .treatment-section-flex-image {
+    width: 100%;
+    margin: auto;
+  }
+  
+  .treatment-section-flex-image img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .treatment-section-flex-caption {
+    width: 100%;
+    margin: auto;
+  }
+  
+  .treatment-section-flex-caption h2 {
+    text-align: left;
+    font-size: 1rem;
+    color: #1b1c1d;
+    font-family: "Noto Serif Oriya", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    line-height: normal;
+    padding: 2rem 0 .5rem 0;
+  }
+
+  .treatment-section-flex-caption p {
+    font-size: 16px;
+    color: rgb(32, 30, 30);
+    line-height: normal;
+    text-align: justify;
+    font-weight: 300;
+
+  }
+  
+  .treatment-section-flex-caption ul li {
+    list-style-type: disc;
+    font-weight: 300;
+
+}
+
+  .treatment-section-body {
+    padding: 2rem 0;
+  }
+
+  .treatment-btn {
+    padding-top: 1rem;
+  }
+
+  .treatment-btn button {
+    display: flex;
+    align-items: center;
+    background-color: #40b4e2;
+    color: #ffffff;
+    border: none;
+    width: 150px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .treatment-btn button:hover {
+    background-color: #283747;
+  }
+  
+  
+  @media screen and (max-width:940px) {
+    
+
+    .treatment-section-flex {
+      flex-wrap: wrap;
+    }
+
+    .treatment-section-content {
+      flex-wrap: wrap;
+    }
+
+    .treatment-section-sidebar {
+        width: 70%;
+    }
+
+    .treatment-section-header h1 {
+      text-align: center;
+    }
+    
+    .treatment-section-header p {
+      text-align: justify;
+    }
+
+    .treatment-section-flex-caption h2 {
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    .treatment-btn button {
+      margin: auto;
+    }
+
+}
+  
+
+  
+  
+  @media screen and (max-width:700px) {
+
+    .treatment-section-sidebar {
+      width: 100%;
+    }
+    
+  }
+  
+  
+  
+  
+  

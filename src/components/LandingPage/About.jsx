@@ -67,7 +67,7 @@ const About = () => {
           </div>
           <div className='about-caption'>
             <h1>Individual Therapy</h1>
-            <p>Tempor cursus molestie lobortis luctus nostra euismod fames montes </p>
+            <p>Through compassionate guidance and evidence-based techniques, our therapists empower individuals to heal, grow, and build a foundation for lasting recovery.</p>
           </div>
         </div>
 
@@ -78,7 +78,7 @@ const About = () => {
           </div>
           <div className='about-caption'>
             <h1>Group Counseling</h1>
-            <p>Tempor cursus molestie lobortis luctus nostra euismod fames montes </p>
+            <p>The Group Counseling program at Better Days Recovery fosters a supportive community where individuals share their journeys, gain insight, and build resilience together. Guided by skilled therapists, this program creates a safe space for connection, understanding, and collective healing.</p>
           </div>
         </div>
 
@@ -88,7 +88,7 @@ const About = () => {
           </div>
           <div className='about-caption'>
             <h1>Stress Management</h1>
-            <p>Tempor cursus molestie lobortis luctus nostra euismod fames montes </p>
+            <p>It empowers individuals with effective techniques to navigate life’s challenges with resilience and clarity. Through personalized strategies and therapeutic support, we help you regain balance, reduce anxiety, and build lasting emotional well-being.</p>
           </div>
         </div>
 
@@ -98,7 +98,7 @@ const About = () => {
           </div>
           <div className='about-caption'>
             <h1>Anxiety & Depression</h1>
-            <p>Tempor cursus molestie lobortis luctus nostra euismod fames montes </p>
+            <p>Designed to provide personalized care and evidence-based therapies. Our supportive environment empowers individuals to regain control, find balance, and embrace a brighter, more fulfilling future.</p>
           </div>
         </div>
 

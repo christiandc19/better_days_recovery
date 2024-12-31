@@ -4,6 +4,11 @@ import Navbar from './components/Navbar';
 import LandingPage from './components/LandingPage/LandingPage';
 import AboutPage from './components/About/AboutPage';
 import ContactPage from './components/Contact/Contact';
+
+import TreatmentPage from './components/Treatment/Treatment';
+import AdmissionsPage from './components/Admissions/Admissions';
+import RecoveryPage from './components/Recovery/Recovery';
+
 import Footer from './components/Footer';
 import AddictionProgram from './components/ProgramOptions/Addiction/AddictionProgram';
 import DetoxProgram from './components/ProgramOptions/DetoxProgram/DetoxProgram';
@@ -32,6 +37,7 @@ import InhalantAddictionTreatment from './components/WhatWeTreat/InhalantAddicti
 import PrivacyPolicy from './components/PrivacyPolicy/PrivacyPolicy';
 import Topbar from './components/Topbar/Topbar';
 
+
 const App = () => {
   return (
     <Router>
@@ -39,6 +45,7 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path="/" element={<LandingPage />} />
+        <Route path="/treatment" element={<TreatmentPage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/addiction-program" element={<AddictionProgram />} />
@@ -65,6 +72,10 @@ const App = () => {
         <Route path="/inhalant-addiction-treatment" element={<InhalantAddictionTreatment />} />
 
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        {/* Admissions */}
+        <Route path="/admissions" element={<AdmissionsPage />} />
+        {/* Recovery */}
+        <Route path="/recovery" element={<RecoveryPage />} />
 
 
       </Routes>

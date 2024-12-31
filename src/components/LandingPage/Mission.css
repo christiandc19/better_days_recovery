@@ -8,7 +8,7 @@
     padding: 60px 20px;
     display: flex;
     align-items: center;
-    min-height: 400px;
+    height: 75dvh;
   }
   
   .mission::before {
@@ -18,14 +18,14 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5); /* Color overlay with opacity */
+    background-color: rgba(0, 0, 0, 0.411); /* Color overlay with opacity */
     z-index: 1;
   }
   
   .mission-content {
     position: relative;
     z-index: 2;
-    max-width: 600px;
+    width: 60%;
     text-align: left;
     margin-left: 20px;
   }
@@ -37,8 +37,7 @@
   }
   
   .mission-content p {
-    font-size: 1.125rem;
-    line-height: 1.6;
+    font-size: 16px;
   }
   
   /* Responsive adjustments */
@@ -49,6 +48,7 @@
   
     .mission-content {
       margin-left: 10px;
+      width: 100%;
     }
   
     .mission-content h1 {

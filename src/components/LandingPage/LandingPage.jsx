@@ -7,7 +7,6 @@ import Man from '../../assets/man.webp';
 import ContactForm from '../LandingPage/ContactForm';
 import Insurance from './Insurance';
 import Offer from './Offer';
-import AccordionProps from './AccordionProps';
 import About from './About';
 import Slider from './ImageSlider';
 import Services from './Services'
@@ -28,7 +27,7 @@ const Hero = () => {
                 <div className="landing-container container">
 
                         <div className='landing-caption'>
-                        <h1>Nurturing Growth, Restoring Lives.</h1>
+                        <h1>Together, We’ll Find Your Better Days.</h1>
                         <p>Discover a supportive environment where your mental health journey starts. We provide the tools, guidance, and care needed to nurture your mind, helping you achieve lasting peace and balance. Your path to emotional wellbeing begins with us, right here.</p>
                             <div className='hero-btn'>
                                 <Link to="/inpatient-rehab" onClick={scrollToTop}>

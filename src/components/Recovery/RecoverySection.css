@@ -1,0 +1,171 @@
+/* AlcoholHeroinRehab.css */
+
+.recovery-section {
+    height: auto;
+    padding: 3rem 1rem;
+  }
+  
+  .recovery-section-content {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .recovery-section-sidebar {
+    width: 40%;
+  }
+  
+  .recovery-section-caption {
+    width: 100%;
+  }
+
+  .recovery-section-caption ol li {
+    padding: .5rem 0;
+  }
+  
+  
+  .recovery-section-header h1 {
+    text-align: left;
+    font-size: 1.3rem;
+    color: #1b1c1d;
+    font-family: "Noto Serif Oriya", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    line-height: normal;
+    padding-bottom: 1rem;
+  }
+  
+  
+  .recovery-section-header p {
+    font-size: 16px;
+    color: rgb(32, 30, 30);
+    line-height: normal;
+    font-weight: 300;
+  }
+  
+  .recovery-section-flex {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem 0;
+  }
+  
+  .recovery-section-flex-image {
+    width: 100%;
+    margin: auto;
+  }
+  
+  .recovery-section-flex-image img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .recovery-section-flex-caption {
+    width: 100%;
+    margin: auto;
+  }
+  
+  .recovery-section-flex-caption h2 {
+    text-align: left;
+    font-size: 1rem;
+    color: #1b1c1d;
+    font-family: "Noto Serif Oriya", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    line-height: normal;
+    padding: 2rem 0 .5rem 0;
+  }
+
+  .recovery-section-flex-caption p {
+    font-size: 16px;
+    color: rgb(32, 30, 30);
+    line-height: normal;
+    text-align: justify;
+    font-weight: 300;
+
+  }
+  
+  .recovery-section-flex-caption ul li {
+    list-style-type: disc;
+}
+
+  .recovery-section-body {
+    padding: 2rem 0;
+  }
+
+  .recovery-btn {
+    padding-top: 1rem;
+  }
+
+  .recovery-btn button {
+    display: flex;
+    align-items: center;
+    background-color: #40b4e2;
+    color: #ffffff;
+    border: none;
+    width: 150px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .recovery-btn button:hover {
+    background-color: #8a5536;
+  }
+  
+  
+  @media screen and (max-width:940px) {
+    
+
+    .recovery-section-flex {
+      flex-wrap: wrap;
+    }
+
+    .recovery-section-content {
+      flex-wrap: wrap-reverse;
+    }
+
+    .recovery-section-sidebar {
+        width: 70%;
+    }
+
+    .recovery-section-header h1 {
+      text-align: center;
+    }
+    
+    .recovery-section-header p {
+      text-align: justify;
+    }
+
+    .recovery-section-flex-caption h2 {
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    .recovery-btn button {
+      margin: auto;
+    }
+
+}
+  
+
+  
+  
+  @media screen and (max-width:700px) {
+
+    .recovery-section-sidebar {
+      width: 100%;
+    }
+    
+  }
+  
+  
+  
+  
+  
