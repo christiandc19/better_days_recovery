@@ -1,9 +1,9 @@
 import React from 'react';
 import './LandingPage.css';
+import {Helmet} from "react-helmet";
 import { FaLongArrowAltRight } from "react-icons/fa"; // Import the arrow icon
 import { Link } from 'react-router-dom'; // For routing between pages
 import Man from '../../assets/man.webp';
-
 import ContactForm from '../LandingPage/ContactForm';
 import Insurance from './Insurance';
 import Offer from './Offer';
@@ -22,6 +22,13 @@ const Hero = () => {
 
     return (
         <>
+
+        <Helmet>
+            <meta charSet="utf-8" />
+            <title>HOME - Better Days Recovery</title>
+            <link rel="canonical" href="https://betterdaysrecovery.biz/" />
+        </Helmet>
+
             <div className='landing'>
 
                 <div className="landing-container container">

@@ -4,10 +4,18 @@ import SideBarInsurance from '../SidebarInsurance/SidebarInsurance';
 import SectionImage from '../../assets/meth_hero.webp';
 import AccordionMenu from './AccordionMenu';
 import ContactForm from '../LandingPage/ContactForm';
+import {Helmet} from "react-helmet";
 
 const InhalantAddiction = () => {
   return (
     <>
+
+        <Helmet>
+            <meta charSet="utf-8" />
+            <title>INHALANT ADDICTION TREATMENT- Better Days Recovery</title>
+            <link rel="canonical" href="https://betterdaysrecovery.biz/cocaine-addiction-treatment" />
+        </Helmet>
+
       <div className='inhalant'>
         <div className='inhalant-content'>
           <div className='inhalant-hero'>

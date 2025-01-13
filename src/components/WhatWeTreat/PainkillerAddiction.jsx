@@ -5,10 +5,18 @@ import SectionImage from '../../assets/drug_addiction.webp';
 import AccordionMenu from './AccordionMenu';
 import ContactForm from '../LandingPage/ContactForm';
 import Mission from '../LandingPage/Mission';
+import {Helmet} from "react-helmet";
 
 const PainkillerAddiction = () => {
   return (
     <>
+
+      <Helmet>
+            <meta charSet="utf-8" />
+            <title>PAINKILLER ADDICTION TREATMENT- Better Days Recovery</title>
+            <link rel="canonical" href="https://betterdaysrecovery.biz/painkiller-addiction-treatment" />
+        </Helmet>
+
       <div className='painkiller'>
         <div className='painkiller-content'>
           <div className='painkiller-hero'>

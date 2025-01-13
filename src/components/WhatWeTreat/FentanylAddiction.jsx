@@ -5,10 +5,18 @@ import SectionImage from '../../assets/female-psychologist-provides-mental-aid-t
 import AccordionMenu from './AccordionMenu';
 import ContactForm from '../LandingPage/ContactForm';
 import Mission from '../LandingPage/Mission'
+import {Helmet} from "react-helmet";
 
 const FentanylAddiction = () => {
   return (
     <>
+
+        <Helmet>
+            <meta charSet="utf-8" />
+            <title>FENTANYL ADDICTION TREATMENT - Better Days Recovery</title>
+            <link rel="canonical" href="https://betterdaysrecovery.biz/fentanyl-addiction-treatment" />
+        </Helmet>
+        
       <div className='fentanyl'>
         <div className='fentanyl-content'>
           <div className='fentanyl-hero'>

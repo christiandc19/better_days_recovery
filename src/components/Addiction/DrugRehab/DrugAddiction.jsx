@@ -5,10 +5,17 @@ import DrugAddictionImage from '../../../assets/mental_health_disorder.webp';
 import RehabAccordionMenu from '../../Addiction/RehabAccordionMenu';
 import ContactForm from '../../LandingPage/ContactForm';
 import Mission from '../../LandingPage/Mission';
+import {Helmet} from "react-helmet";
 
 const DrugAddiction = () => {
   return (
     <>
+        <Helmet>
+            <meta charSet="utf-8" />
+            <title>DRUG ADDICTION REHAB- Better Days Recovery</title>
+            <link rel="canonical" href="https://betterdaysrecovery.biz/drug-addiction-treatment" />
+        </Helmet>
+
       <div className='drug-addiction'>
         <div className='drug-addiction-content'>
           <div className='drug-addiction-hero'>

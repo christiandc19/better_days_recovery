@@ -5,10 +5,18 @@ import SectionImage from '../../assets/cocaine_addict.webp';
 import AccordionMenu from './AccordionMenu';
 import ContactForm from '../LandingPage/ContactForm';
 import Mission from '../LandingPage/Mission';
+import {Helmet} from "react-helmet";
 
 const KratomAddiction = () => {
   return (
     <>
+
+        <Helmet>
+            <meta charSet="utf-8" />
+            <title>KRATOM ADDICTION TREATMENT - Better Days Recovery</title>
+            <link rel="canonical" href="https://betterdaysrecovery.biz/kratom-addiction-treatment" />
+        </Helmet>
+
       <div className='kratom'>
         <div className='kratom-content'>
           <div className='kratom-hero'>

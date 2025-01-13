@@ -1,4 +1,5 @@
 import React from "react";
+import {Helmet} from "react-helmet";
 
 import './Contact.css'
 import ContactForm from "../LandingPage/ContactForm";
@@ -10,6 +11,12 @@ const Contact = () => {
 
     return (
       <>
+
+      <Helmet>
+            <meta charSet="utf-8" />
+            <title>CONTACT - Better Days Recovery</title>
+            <link rel="canonical" href="https://betterdaysrecovery.biz/contact" />
+        </Helmet>
 
 <div className='contact-hero main-menu'>
             <div className="contact-hero-content">

@@ -5,9 +5,18 @@ import AtivanImage from '../../../assets/ativan_section_image2.webp'; // Replace
 import RehabAccordionMenu from '../../Addiction/RehabAccordionMenu';
 import ContactForm from '../../LandingPage/ContactForm';
 import Mission from '../../LandingPage/Mission'
+import {Helmet} from "react-helmet";
+
 const AtivanRehab = () => {
   return (
     <>
+
+      <Helmet>
+            <meta charSet="utf-8" />
+            <title>ATIVAN ADDICTION REHAB- Better Days Recovery</title>
+            <link rel="canonical" href="https://betterdaysrecovery.biz/ativan-rehab" />
+        </Helmet>
+
       <div className='ativan-rehab'>
         <div className='ativan-rehab-content'>
           <div className='ativan-rehab-hero'>

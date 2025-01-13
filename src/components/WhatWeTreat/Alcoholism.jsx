@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import './Alcoholism.css';
+import {Helmet} from "react-helmet";
 import SideBarInsurance from '../SidebarInsurance/SidebarInsurance';
 import AlcoholismImage from '../../assets/alcoholic_man.webp'
 import AccordionMenu from './AccordionMenu';
@@ -9,6 +10,12 @@ const Alcoholism = () => {
 
   return (
     <>
+        <Helmet>
+            <meta charSet="utf-8" />
+            <title>ALCOHOLISM TREATMENT - Better Days Recovery</title>
+            <link rel="canonical" href="https://betterdaysrecovery.biz/alcoholism" />
+        </Helmet>
+
       <div className='alcoholism'>
         <div className='alcoholism-content'>
           <div className='alcoholism-hero'>

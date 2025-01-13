@@ -5,10 +5,19 @@ import XanaxImage from '../../../assets/xanax_section_image1.webp'; // Replace w
 import RehabAccordionMenu from '../../Addiction/RehabAccordionMenu';
 import ContactForm from '../../LandingPage/ContactForm';
 import Mission from '../../LandingPage/Mission';
+import {Helmet} from "react-helmet";
 
 const XanaxRehab = () => {
   return (
     <>
+
+        <Helmet>
+            <meta charSet="utf-8" />
+            <title>XANAX ADDICTION REHAB- Better Days Recovery</title>
+            <link rel="canonical" href="https://betterdaysrecovery.biz/xanax-rehab" />
+        </Helmet>
+
+
       <div className='xanax-rehab'>
         <div className='xanax-rehab-content'>
           <div className='xanax-rehab-hero'>

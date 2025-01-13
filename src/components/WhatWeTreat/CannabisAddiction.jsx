@@ -5,10 +5,17 @@ import SectionImage from '../../assets/drug_addiction_section_image2.webp';
 import AccordionMenu from './AccordionMenu';
 import ContactForm from '../LandingPage/ContactForm';
 import Mission from '../LandingPage/Mission';
+import {Helmet} from "react-helmet";
 
 const CannabisAddiction = () => {
   return (
     <>
+        <Helmet>
+            <meta charSet="utf-8" />
+            <title>CANNABIS ADDICTION TREATMENT- Better Days Recovery</title>
+            <link rel="canonical" href="https://betterdaysrecovery.biz/cannabis-addiction-treatment" />
+        </Helmet>
+
       <div className='cannabis'>
         <div className='cannabis-content'>
           <div className='cannabis-hero'>

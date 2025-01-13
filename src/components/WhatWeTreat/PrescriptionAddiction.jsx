@@ -5,10 +5,18 @@ import SectionImage from '../../assets/MAT_hero.webp'
 import AccordionMenu from './AccordionMenu';
 import ContactForm from '../LandingPage/ContactForm';
 import Mission from '../LandingPage/Mission'
+import {Helmet} from "react-helmet";
 
 const PrescriptionAddiction = () => {
   return (
     <>
+
+        <Helmet>
+            <meta charSet="utf-8" />
+            <title>PRESCRIPTIONS ADDICTION TREATMENT - Better Days Recovery</title>
+            <link rel="canonical" href="https://betterdaysrecovery.biz/prescription-addiction-treatment" />
+        </Helmet>
+
       <div className='prescription'>
         <div className='prescription-content'>
           <div className='prescription-hero'>

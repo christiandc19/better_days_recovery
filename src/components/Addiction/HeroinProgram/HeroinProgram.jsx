@@ -5,10 +5,18 @@ import HeroinImage from '../../../assets/depressed_man.webp'; // Replace with ac
 import RehabAccordionMenu from '../../Addiction/RehabAccordionMenu';
 import ContactForm from '../../LandingPage/ContactForm';
 import Mission from '../../LandingPage/Mission';
+import {Helmet} from "react-helmet";
 
 const HeroinProgram = () => {
   return (
     <>
+
+        <Helmet>
+            <meta charSet="utf-8" />
+            <title>HEROIN ADDICTION REHAB- Better Days Recovery</title>
+            <link rel="canonical" href="https://betterdaysrecovery.biz/heroin-program" />
+        </Helmet>
+
       <div className='heroin-program'>
         <div className='heroin-program-content'>
           <div className='heroin-program-hero'>

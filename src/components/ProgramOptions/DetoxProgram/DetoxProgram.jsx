@@ -10,7 +10,14 @@ import './DetoxProgram.css'
 const DetoxProgram = () => {
 return (
 
-<>        
+<>   
+
+<Helmet>
+            <meta charSet="utf-8" />
+            <title>DETOX PROGRAM - Better Days Recovery</title>
+            <link rel="canonical" href="https://betterdaysrecovery.biz/detox-program" />
+</Helmet>
+
 <div className='detox-hero main-menu'>
             <div className="detox-hero-content">
                 <div className="detox-hero-content">
