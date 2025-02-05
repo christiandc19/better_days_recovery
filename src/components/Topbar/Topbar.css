@@ -8,6 +8,18 @@
     font-size: 1rem;
 }
 
+.topbar a {
+    color: white;
+}
+
 .tobar-content {
     padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 700px) {
+    .hide {
+        display: none;
+    }
 }

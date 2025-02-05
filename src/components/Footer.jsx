@@ -19,7 +19,12 @@ const Footer = () => {
           <div className="top container">
 
             <div className="logo-footer">
-              <img src={logo} alt="Sacramento Rehab Logo" loading="lazy"/>
+              <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+                <Link to="/" onClick={handleLinkClick}>
+                   <img src={logo} alt="Sacramento Rehab Logo" loading="lazy"/>
+                </Link>
+              </LinkRoll>
+
               <div>
               <p><a href="tel:(323) 287-3458"> +1 (323) 287-3458</a></p>
               <p>7561 W Sunset, Suite 203, Hollywood, CA 90046</p>
@@ -104,7 +109,7 @@ const Footer = () => {
           </div>
             <div className='copyright'>
             <p>
-              &copy; 2024 Better Days Recovery. All rights reserved
+              &copy; 2025 Better Days Recovery. All rights reserved
             </p>
             </div>
 

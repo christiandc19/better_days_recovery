@@ -46,10 +46,11 @@ const Navbar = () => {
   return (
     <nav className={`navbar ${isScrolled || !isHomePage ? 'scrolled' : ''}`} name="top">
       <div className="nav-box container">
+
         <div className="navbar-logo">
+        <Link to="/" onClick={() => { closeMenu(); scrollToTop(); }}>
           <img src={Logo} alt='logo' loading='lazy'/>
-          {/* Dynamically switch logo based on scroll state or homepage */}
-          {/* <img src={isScrolled || !isHomePage ? logoDark : logo} alt="logo" loading="lazy" /> */}
+        </Link>
         </div>
         <button
           className="hamburger"
